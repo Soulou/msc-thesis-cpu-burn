@@ -1,3 +1,3 @@
 FROM ubuntu:13.10
-ADD ./CPU-Isolation /CPU-Isolation
-ENTRYPOINT ["/CPU-Isolation"]
+ADD ./msc-thesis-cpu-burn /msc-thesis-cpu-burn
+ENTRYPOINT ["/msc-thesis-cpu-burn"]
